@@ -84,7 +84,7 @@ const Day: React.FC<Props> = ({
           isStartOfMonth && theme.startOfMonthDayText,
           isEndOfMonth && theme.endOfMonthDayText,
         ]}>
-        {dayjs(date).date()}
+        {dayjs(date).date()}
       </Text>
     </TouchableOpacity>
   );
